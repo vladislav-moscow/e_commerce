@@ -80,10 +80,11 @@ li {
   gap: 20px;
 }
 
-section {
+section, aside {
   background: var(--dark);
   border-radius: 6px;
 }
+
 
 button {
   background: var(--violet-dark);
@@ -113,7 +114,8 @@ input::-webkit-inner-spin-button {
 }
 
 input[type="number"] {
-  -moz-appearance: textfield; /* Firefox */
+  -moz-appearance: textfield;
+  appearance: textfield; /* Firefox */
 }
 
 input {
